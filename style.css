@@ -16,13 +16,26 @@
     color:blue
     
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main-2 {
+    background-color: lab(97.23% 0.01 -0.01);
+    margin: 0%;
+    padding: 0%;
+}
 #navbar {
-    background-color: #c5c5c5;
+    background-color: hsl(0, 0%, 88%);
 
     display: flex;
     justify-content: space-between;
 
-    padding: 0px;
+    width: 100%;
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
