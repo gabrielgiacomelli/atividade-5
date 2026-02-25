@@ -11,3 +11,12 @@
 #textos_ao_lado_robo{ 
     text-align: center;
 }
+#navbar {
+    background-color: #c5c5c5;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
