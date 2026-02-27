@@ -13,6 +13,7 @@
 }
 
 
+
 body {
     margin: 0;
     padding: 0;
@@ -23,13 +24,50 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
+.retangulo {
+    width: 270;
+    height: 30px;
+    background-color: #f1f1f1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sap {
+    position: absolute;
+    width: 30px;
+    margin-right: 230px;
+}
+
+.texto-lado-sap {
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.quadrado-foto {
+    width: 30;
+    height: 30;
+    margin-left: 50;
+}
+
+#yo {
+    background-color: hsl(49, 100%, 73%); 
+    width:auto;
+    height: 20px; 
+}
+
 #navbar {
     background-color: hsl(0, 0%, 88%);
 
     display: flex;
     justify-content: space-between;
 
-    width: 100%;
-    margin: 0;
+    width:auto;
+    border-width: 10px;
+    padding-left: 20;
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
