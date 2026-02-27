@@ -1,6 +1,4 @@
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -22,13 +20,25 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
+
+
+
+
+
 .container {
   display: flex;
-  gap: 10px; /* Espaço entre os quadrados */
+   /* Espaço entre os quadrados */
 }
 
 .quadrado {
-  width: 100px; /* Largura */
-  height: 100px; /* Altura igual à largura para formar quadrado */
-  background-color: blue;
+  width: 250px; /* Largura */
+  height: 250px; /* Altura igual à largura para formar quadrado */
+  background-color: rgb(199, 199, 255);
+}
+
+.quadrado img{
+    width: 100%;
+    height: 100%;
 }
