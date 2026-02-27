@@ -19,21 +19,20 @@ body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
-
-
-
-
-
 .container {
   display: flex;
    /* Espaço entre os quadrados */
+   gap: 10px;
 }
 
-.quadrado {
-  width: 250px; /* Largura */
+.quadrado-1 {
+  width: 500px; /* Largura */
+  height: 250px; /* Altura igual à largura para formar quadrado */
+  background-color: rgb(199, 199, 255);
+  display: flex;
+}
+.quadrado-2{
+    width: 250px; /* Largura */
   height: 250px; /* Altura igual à largura para formar quadrado */
   background-color: rgb(199, 199, 255);
 }
@@ -41,4 +40,10 @@ body {
 .quadrado img{
     width: 100%;
     height: 100%;
+}
+.p1{
+    font-size: 25px;
+    color: rgb(35, 35, 255);
+    font-family: arial;
+    text-align: center;
 }
