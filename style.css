@@ -1,21 +1,4 @@
 
-#main-1{
-    background-color: rgb(210, 233, 250) ;
-    margin: 50px;
-}
-
-#primeira_div{
-    display: flex;
-}
-
-#robo{
-    background-color:rgb(217, 232, 243);
-}
-#textos_ao_lado_robo{ 
-    text-align: center;
-    color:blue
-    
-}
 
 
 body {
@@ -39,10 +22,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.p1{
-    font-family: 
+.container {
+  display: flex;
+  gap: 10px; /* Espaço entre os quadrados */
 }
 
-.flex{
-    display:flex;
+.quadrado {
+  width: 100px; /* Largura */
+  height: 100px; /* Altura igual à largura para formar quadrado */
+  background-color: blue;
 }
